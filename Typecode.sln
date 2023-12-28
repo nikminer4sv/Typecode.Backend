@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typecode.WebApi", "Typecode.WebApi\Typecode.WebApi.csproj", "{699B605D-9B9E-4058-80B2-C53DD8B92D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typecode.Domain", "Typecode.Domain\Typecode.Domain.csproj", "{99B1DB7E-ECAF-4439-BB89-A44A90B0D017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typecode.Persistence", "Typecode.Persistence\Typecode.Persistence.csproj", "{A11A69FE-5ED6-4CF5-A1A6-5039D7FB87EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typecode.Application", "Typecode.Application\Typecode.Application.csproj", "{5DF8EE68-7A22-4897-9969-8DC5FEB546D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Typecode.Identity", "Typecode.Identity", "{672D3AAD-3ACF-4708-B24B-3B793FFE8977}"
+	ProjectSection(SolutionItems) = preProject
+		Typecode.Identity\Dockerfile = Typecode.Identity\Dockerfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.WebApi", "Typecode.Identity\Identity.WebApi\Identity.WebApi.csproj", "{DB663F93-C9DC-4C3F-A358-AEDC5019E514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Typecode.Notification", "Typecode.Notification", "{CBEE017C-6443-42C9-A5DD-DA1930EEACCF}"
+	ProjectSection(SolutionItems) = preProject
+		Typecode.Notification\Dockerfile = Typecode.Notification\Dockerfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.WebApi", "Typecode.Notification\Notification.WebApi\Notification.WebApi.csproj", "{741F4076-ABCB-485E-98BE-39FB8C4A4200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{699B605D-9B9E-4058-80B2-C53DD8B92D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699B605D-9B9E-4058-80B2-C53DD8B92D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699B605D-9B9E-4058-80B2-C53DD8B92D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699B605D-9B9E-4058-80B2-C53DD8B92D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B1DB7E-ECAF-4439-BB89-A44A90B0D017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B1DB7E-ECAF-4439-BB89-A44A90B0D017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B1DB7E-ECAF-4439-BB89-A44A90B0D017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B1DB7E-ECAF-4439-BB89-A44A90B0D017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11A69FE-5ED6-4CF5-A1A6-5039D7FB87EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11A69FE-5ED6-4CF5-A1A6-5039D7FB87EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11A69FE-5ED6-4CF5-A1A6-5039D7FB87EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11A69FE-5ED6-4CF5-A1A6-5039D7FB87EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF8EE68-7A22-4897-9969-8DC5FEB546D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF8EE68-7A22-4897-9969-8DC5FEB546D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF8EE68-7A22-4897-9969-8DC5FEB546D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF8EE68-7A22-4897-9969-8DC5FEB546D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB663F93-C9DC-4C3F-A358-AEDC5019E514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB663F93-C9DC-4C3F-A358-AEDC5019E514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB663F93-C9DC-4C3F-A358-AEDC5019E514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB663F93-C9DC-4C3F-A358-AEDC5019E514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741F4076-ABCB-485E-98BE-39FB8C4A4200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741F4076-ABCB-485E-98BE-39FB8C4A4200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741F4076-ABCB-485E-98BE-39FB8C4A4200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741F4076-ABCB-485E-98BE-39FB8C4A4200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB663F93-C9DC-4C3F-A358-AEDC5019E514} = {672D3AAD-3ACF-4708-B24B-3B793FFE8977}
+		{741F4076-ABCB-485E-98BE-39FB8C4A4200} = {CBEE017C-6443-42C9-A5DD-DA1930EEACCF}
+	EndGlobalSection
+EndGlobal
